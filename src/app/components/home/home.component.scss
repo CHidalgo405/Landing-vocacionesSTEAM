@@ -1,0 +1,466 @@
+.hero-section-0 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  display: flex;
+
+  .overlay-content-0 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    color: rgb(0, 0, 0);
+
+    h1 {
+      font-family: 'Nunito Sans', sans-serif; 
+      font-size: 25px;
+      font-weight: 100;
+      line-height: 0.9;
+      margin: 0;
+    }
+
+    .icon-steam {
+      width: 50px;
+      height: 50px;
+      margin-left: 5px;
+      margin-right: 10px;
+    }
+  }
+    .overlay-content-0-1 {
+    width: 50%;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    z-index: 2;
+    color: rgb(0, 0, 0);
+
+    .cta-button-1 {
+      font-family: 'Nunito Sans', sans-serif; 
+      margin-right: 20px;
+      font-size: 20px;
+      color: white;
+      align-items: center;
+      justify-content: center;
+      background-color: #07b2c9;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      width: 270px;
+      height: 45px;
+
+      &:hover {
+        background-color: #ffffff;
+        color: #07b2c9;
+        border: 2px solid #07b2c9;
+        transition: background-color 0.3s;
+      }
+    }
+  }
+}
+
+.hero-section {
+  position: relative;
+  height: 60vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .bg-video {
+    position: absolute;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    //height: 100%;
+    object-fit: cover;
+    //filter: brightness(0.4);
+  }
+}
+
+.hero-section-1 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: left;
+
+  .overlay-content-1 {
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    color: rgb(0, 0, 0);
+
+    h1 {
+      font-size: 40px;
+      font-family: 'Nunito Sans', sans-serif; 
+      line-height: 0.9;
+      margin: 0;
+      span { font-style: italic; font-weight: 300; }
+    }
+
+    .gif-steam {
+      width: 70px;
+      height: 70px;
+      margin-left: 15px;
+    }
+  }
+}
+
+.hero-section-2 {
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+
+  .overlay-content {
+    z-index: 2;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+    h1 {
+      font-size: 9vw;
+      font-weight: 500;
+      font-family: 'Nunito Sans', sans-serif; 
+      line-height: 1.2;
+    }
+  }
+}
+
+.section-1 {
+  background-color: #07b2c9e6;
+  margin: 20px;
+  border-radius: 50px;
+  color: white;
+
+  h2 {
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 500;
+    span { font-style: italic; font-weight: 300; }
+  }
+  
+  p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.5;
+  }
+}
+
+.section-2 {
+  background-color: #f88718e6;
+  margin: 20px 20px 20px 20px;
+  border-radius: 50px;
+  color: white;
+
+  h2 {
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 500;
+    span { font-style: italic; font-weight: 300; }
+  }
+  
+  p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.5;
+  }
+}
+
+.section-3 {
+  background-color: #4db046e6;
+  margin: 20px;
+  border-radius: 50px;
+  color: white;
+
+  h2 {
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 500;
+    span { font-style: italic; font-weight: 300; }
+  }
+  
+  p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.5;
+  }
+}
+
+.section-4 {
+  background-color: #e8362de6;
+  margin: 20px;
+  border-radius: 50px;
+  color: white;
+
+  h2 {
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 500;
+    span { font-style: italic; font-weight: 300; }
+  }
+  
+  p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.5;
+  }
+}
+
+.info-container {
+  display: flex;
+  max-width: 90%;
+  margin: 30px auto;
+  align-items: center;
+  margin-top: 60px;
+
+  .info-image {
+    flex: 1;
+    overflow: hidden;
+    margin-right: 50px;
+    margin-left: 50px;
+    clip-path: inset(0% 0% 0% 0%); // Efecto de marco limpio
+    img {
+      border-radius: 10%;
+      margin-top: 30px;
+      width: 100%; 
+      height: 100%; 
+      transition: transform 0.5s;
+      //border-radius: 50%;
+    }
+  }
+
+  .info-text {
+    flex: 1;
+    h2 { font-size: 3rem; margin-bottom: 20px; }
+  }
+}
+
+.cta-button {
+  font-family: 'Nunito Sans', sans-serif; 
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 15px 30px;
+  font-size: 30px;
+  color: white;
+  background-color: #07b2c9;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 300px;
+  height: 70px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+
+  &:hover {
+    background-color: #ffffff;
+    color: #07b2c9;
+    border: 2px solid #07b2c9;
+    transition: background-color 0.3s;
+  }
+}
+
+.hero-section-3 {
+  font-family: 'Nunito Sans', sans-serif; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .overlay-content-1-1 {
+    margin: 30px;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    width: 50%;
+
+    p {
+      font-size: 20px;
+      font-weight: 100;
+      line-height: 1.5;
+    }
+  }
+
+  .overlay-content-1-2 {
+    margin: 30px;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    width: 50%;
+
+    p {
+      font-size: 20px;
+      font-weight: 100;
+      line-height: 1.5;
+    }
+  }
+}
+
+
+.hero-section-4 {
+  font-family: 'Nunito Sans', sans-serif; 
+  background-color: #263238;
+  margin-top: 20px;
+  height: 10vh;
+  display: flex;
+
+  .overlay-content-2 {
+    font-family: 'Nunito Sans', sans-serif; 
+    margin: 30px 30px 30px 30px;
+    display: flex;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    width: 100%;
+
+    h1 {
+      font-size: 25px;
+      font-weight: 100;
+      line-height: 0.9;
+    }
+
+    .gif-steam {
+      width: 50px;
+      height: 50px;
+      margin-left: 5px;
+    }
+  }
+}
+
+.hero-section-5 {
+  background-color: #263238;
+  height: 30vh;
+  display: flex;
+
+  .overlay-content-3 {
+    margin: 30px 30px 30px 30px;
+    display: flex;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    width: 50%;
+
+    h1 {
+      font-size: 25px;
+      font-weight: 100;
+      line-height: 0.9;
+    }
+
+  .cta-button-2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ffffff2f;
+    color: #ffffff;
+    margin: 10px;
+  }
+}
+
+  .overlay-content-4 {
+    margin: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: left;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    width: 25%;
+
+    h1 {
+      font-family: 'Nunito Sans', sans-serif; 
+      font-size: 25px;
+      font-weight: 100;
+      line-height: 0.9;
+    }
+
+    .strong {
+      font-size: 28px;
+      line-height: 0.9;
+    }
+  }
+
+  .overlay-content-5 {
+    margin: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: left;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    width: 25%;
+
+    h1 {
+      font-size: 25px;
+      font-weight: 100;
+      line-height: 0.9;
+    }
+
+    .strong {
+      font-size: 28px;
+      line-height: 0.9;
+    }
+  }
+}
+
+
+// --- ESTILOS DEL CURSOR ---
+.cursor-dot,
+.cursor-outline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 9999;
+  pointer-events: none; // Importante para que no bloquee clicks
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #07b2c9; // Tu color cyan
+}
+
+.cursor-outline {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #07b2c9;
+  transition: width 0.2s, height 0.2s; // Animación suave al crecer
+}
+
+// Clase para cuando hacemos hover en botones (crece el cursor)
+body.hovering .cursor-outline {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(7, 178, 201, 0.1);
+  border-color: transparent;
+}
+
+// --- MEJORA PARA REVEAL TEXT (Efecto Máscara) ---
+.reveal-text {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  // Aseguramos que el span esté listo para animarse desde abajo
+  span {
+    display: inline-block;
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+// --- ESTILOS PARA LOS TÍTULOS ANIMADOS ---
+
+// Asegúrate de que los h1 tengan esto para ocultar lo que viene de "abajo"
+h1.reveal-text {
+  overflow: hidden; // Máscara: oculta la letra antes de entrar
+  margin: 0;
+  line-height: 1.1; // Un poco más de aire para que no se corten los descuelgues (g, j, p, q)
+  
+  // Clase que inyectaremos dinámicamente a cada letra
+  .char {
+    display: inline-block; // Necesario para transformaciones 3D
+    white-space: pre; // Respeta los espacios en blanco entre palabras
+    transform-origin: 50% 100%; // El pivote de rotación es la base de la letra
+    will-change: transform, opacity, filter; // Optimización de rendimiento
+  }
+}
+

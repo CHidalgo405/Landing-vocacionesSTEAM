@@ -1,0 +1,15 @@
+<div class="preloader" *ngIf="isLoading">
+  <div class="preloader-content">
+
+    <img src="assets/1.gif" class="preloader-logo" alt="Vocaciones STEAM">
+
+    <h1 class="preloader-title">Vocaciones STEAM</h1>
+
+    <div class="progress-container">
+      <div class="progress-bar" [style.width.%]="progress"></div>
+    </div>
+
+    <div class="progress-text">{{ progress }}%</div>
+
+  </div>
+</div>

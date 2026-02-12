@@ -1,0 +1,94 @@
+/* =============================== */
+/* PRELOADER VOCACIONES STEAM */
+/* =============================== */
+
+.preloader {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+  overflow: hidden;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Contenido centrado */
+.preloader-content {
+  text-align: center;
+  color: #ffffff;
+  transform: translateY(10px);
+  animation: contentFade 1s ease forwards;
+}
+
+/* Logo animado */
+.preloader-logo {
+  width: 120px;
+  margin-bottom: 25px;
+  animation: floatLogo 3s ease-in-out infinite;
+}
+
+/* Animación flotante del logo */
+@keyframes floatLogo {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Título */
+.preloader-title {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+  opacity: 0.95;
+}
+
+/* Contenedor barra */
+.progress-container {
+  width: 320px;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  overflow: hidden;
+  margin: auto;
+  backdrop-filter: blur(10px);
+}
+
+/* Barra animada */
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #07b2c9, #00e5ff);
+  border-radius: 20px;
+  transition: width 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 229, 255, 0.7);
+}
+
+/* Texto porcentaje */
+.progress-text {
+  margin-top: 18px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  opacity: 0.8;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Animaciones entrada */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes contentFade {
+  from { 
+    opacity: 0; 
+    transform: translateY(30px);
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0);
+  }
+}
